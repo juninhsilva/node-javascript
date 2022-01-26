@@ -23,5 +23,7 @@ setInterval(() => {
     console.clear();
     console.log(':: Top Servidor ::');
     console.table(stats);
+    
+    exports.stats = stats;
 }, 2000);
 
